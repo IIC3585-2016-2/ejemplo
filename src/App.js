@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const selfCode = `class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <h1>
           ¿Cómo montar una página web estática en Github?
         </h1>
@@ -18,6 +18,13 @@ const selfCode = `class App extends Component {
             // Code
           </pre>
         </div>
+        <div>
+          En este caso <code>gh-pages</code> está en:
+          <br />
+          <a href="https://github.com/IIC3585-2016-2/ejemplo/tree/gh-pages">
+            github.com/IIC3585-2016-2/ejemplo/tree/gh-pages
+          </a>
+        </div>
       </div>
     );
   }
@@ -26,7 +33,7 @@ const selfCode = `class App extends Component {
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <h1>
           ¿Cómo montar una página web estática en Github?
         </h1>
@@ -43,6 +50,10 @@ class App extends Component {
         </div>
         <div>
           En este caso <code>gh-pages</code> está en:
+          <br />
+          <a href="https://github.com/IIC3585-2016-2/ejemplo/tree/gh-pages">
+            github.com/IIC3585-2016-2/ejemplo/tree/gh-pages
+          </a>
         </div>
       </div>
     );
