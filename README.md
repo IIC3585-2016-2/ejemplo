@@ -28,3 +28,13 @@ npm start
 ```
 
 Ahora es posible ver la aplicación andando en [`http://localhost:3000`](http://localhost:3000).
+
+## Production
+
+Para "compilar" el Javascript del proyecto:
+
+```sh
+npm run build
+```
+
+Luego copiar los archivos `index.html`, `favicon.ico` y la carpeta `static` a la raíz de la branch [`gh-pages`](https://github.com/IIC3585-2016-2/ejemplo/tree/gh-pages).
